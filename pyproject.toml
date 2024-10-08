@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "inspect-hendrycks-math-repro"
+version = "0.1.0"
+description = ""
+authors = ["tadamcz <tadamczewskipublic@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+inspect-ai = "^0.3.40"
+inspect-evals = {git = "https://github.com/UKGovernmentBEIS/inspect_evals", branch = "main"}
+sympy = "^1.13.3"
+openai = "^1.51.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
